@@ -1,0 +1,45 @@
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 300px;
+}
+
+.form {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.input {
+  border: 1px solid #ccc;
+  width: 278px;
+  border-radius: 5px;
+  outline: inherit;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.input:focus {
+  border: 1px solid rgb(108, 177, 108);
+}
+
+.button {
+  width: 278px;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid blue;
+  background-color: blue;
+  font-size: 18px;
+  color: aliceblue;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: darkblue;
+  border: 1px solid darkblue;
+}

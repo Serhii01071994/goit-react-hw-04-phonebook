@@ -1,0 +1,13 @@
+.input {
+  width: 378px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: inherit;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.input:focus {
+  border: 1px solid rgb(108, 177, 108);
+}
