@@ -5,6 +5,7 @@ import { nanoid } from 'nanoid';
 import { ContactFilter } from './ContactFilter/ContactFilter';
 import css from './App.module.css';
 
+
 export const App = () => {
   const [contacts, setContacts] = useState([]);
   const [filter, setFilter] = useState('');
