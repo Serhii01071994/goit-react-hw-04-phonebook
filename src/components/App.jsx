@@ -15,7 +15,7 @@ export const App = () => {
       setContacts(JSON.parse(contactsJson));
     }
   }, []);
-
+ 
   useEffect(() => {
     localStorage.setItem('contacts', JSON.stringify(contacts));
   }, [contacts]);
